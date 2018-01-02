@@ -1,4 +1,0 @@
-# Script for needed tools
-sudo apt-get install vim ssh
-cat bash_settings >> ~/.bashrc
-cat vim_settings >> ~/.vimrc

@@ -3,8 +3,9 @@ alias please='sudo $(history | cut -c 8- | tail -2 | awk "FNR == 1 {print}")'
 #export PS1='\h:\W \u$' #MAC ORIGINAL
 #export PS1='\[\e[1;32m\]\h:\W \u\$ \[\e[0m\]'
 #export PS1='\[\e[1;35m\]\u@\h \W\$ \[\e[0m\]' 
-export PS1='\[\e[1;34m\]\u@\h \W ➔ \[\e[0m\]'  # the fav
+#export PS1='\[\e[1;34m\]\u@\h \W ➔ \[\e[0m\]'  # the fav
 #export PS1='\[\e[1;32m\]\t\w\n➔ \[\e[0m\]'
 #export PS1='\[\e[1;32m\]\w ➔ \[\e[0m\]'
 #export PS1='\[\e[1;35m\]\d \@:\[\e[0m\] \[\e[1;32m\]\w🔥\n ➔ \[\e[0m\]'
 #export PS1='\[\e[1;35m\]\d \@:\[\e[0m\] \[\e[1;32m\]\w\n ➔ \[\e[0m\]'
+#export PS1='\[\e[1;35m\]\u@\h \W \[\e[0m\]'  # the linux fav
