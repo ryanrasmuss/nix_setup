@@ -1,5 +1,6 @@
 alias please='sudo $(history | cut -c 8- | tail -2 | awk "FNR == 1 {print}")'
 alias aliases='cat ~/.bash_aliases'
+alias nse='ls /usr/share/nmap/scripts | grep '
 alias ba='vim ~/.bash_aliases'
 # bash prompt settings/colors
 #export PS1='\[\e[1;34m\]\u@\h \W ➔ \[\e[0m\]'  # the fav
