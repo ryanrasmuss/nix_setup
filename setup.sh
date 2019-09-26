@@ -8,4 +8,4 @@ cat vim_settings.txt >> ~/.vimrc
 # add color options to vim
 mkdir -p ~/.vim/colors/
 git clone https://github.com/flazz/vim-colorschemes.git
-mv -v ~/.vim/vim-colorschemes/colors/*.vim ~/.vim/colors/
+mv -v vim-colorschemes/colors/*.vim ~/.vim/colors/
