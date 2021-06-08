@@ -9,3 +9,7 @@ cat vim_settings.txt >> ~/.vimrc
 mkdir -p ~/.vim/colors/
 git clone https://github.com/flazz/vim-colorschemes.git
 mv -v vim-colorschemes/colors/*.vim ~/.vim/colors/
+# Make copies to root user 
+ln -s  $(``pwd``)/.vimrc /root/.vimrc
+sudo mkdir -v /root/.vim/
+ln -s $(``pwd``)/.vim/ /root/.vim/
